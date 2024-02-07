@@ -15,7 +15,7 @@ function SaleProject() {
                                 <img
                                     src={project.images.image1src}
                                     alt={project.images.imgAlt}
-                                    className="h-full w-full object-cover object-center hover:scale-110 duration-100 "
+                                    className="h-full w-full object-cover object-center hover:scale-110 transition duration-500  ease-out "
                                 />
                             </div>
                             <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
@@ -23,14 +23,14 @@ function SaleProject() {
                                     <img
                                         src={project.images.image2src}
                                         alt={project.images.imgAlt}
-                                        className="h-full w-full object-cover object-center  hover:scale-110 duration-100 "
+                                        className="h-full w-full object-cover object-center  hover:scale-110 transition duration-500  ease-out"
                                     />
                                 </div>
                                 <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
                                     <img
                                         src={project.images.image3src}
                                         alt={project.images.imgAlt}
-                                        className="h-full w-full object-cover object-center  hover:scale-110 duration-100 "
+                                        className="h-full w-full object-cover object-center  hover:scale-110 transition duration-500  ease-out"
                                     />
                                 </div>
                             </div>
@@ -55,8 +55,8 @@ function SaleProject() {
                                     <button
                                         type="submit"
                                         className="mt-10 flex w-full items-center justify-center rounded-mdbg-stone-600 px-8 py-3 text-base font-medium 
-                                        border-4 border-orange-500 bg-stone-700 text-white
-                                        hover:bg-orange-500 hover:text-slate-900 "
+                                        border-4 border-amber-400 bg-stone-700 text-white
+                                        hover:bg-amber-400 hover:text-slate-900 "
                                     >
                                         Projeyi İncele
                                     </button>

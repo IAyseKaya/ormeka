@@ -9,8 +9,7 @@ import Footer from "./components/footer";
 import ProjectsPage from "./ProjectsPage/ProjectsPage.jsx";
 import ProjectPage from "./ProjectPage/ProjectPage.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-
+import GroupCompany from "./components/GroupCompany.jsx";
 
 function App() {
 
@@ -25,10 +24,12 @@ function App() {
         <Routes>
           <Route index element={<MainPage />} />
           <Route path="login" element={<Login />} />
+          <Route path="grupsirketleri" element={<GroupCompany/>} />
           <Route path="kurumsal" element={<About />} />
           <Route path="iletisim" element={<Contact />} />
           <Route path="projeler" element={<ProjectsPage />} />
-          <Route path="proje:id" element={<ProjectPage />} />
+          <Route path="proje" element={<ProjectPage />} />
+
         </Routes>
         <Footer />
       </BrowserRouter>

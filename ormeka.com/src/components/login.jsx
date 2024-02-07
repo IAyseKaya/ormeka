@@ -1,4 +1,4 @@
-import logo from "../img/Ormekalogouzun.png"
+import logo from "../img/Ormekalogouzunseffaf.png"
 function login() {
 
     return(
@@ -6,11 +6,11 @@ function login() {
           <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
-            className="mx-auto h-40 w-auto"
+            className="mx-auto h-20 w-auto"
             src={logo}
             alt="Your Company"
           />
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-stone-900">
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-stone-700">
             Giriş Yap
           </h2>
         </div>
@@ -28,7 +28,8 @@ function login() {
                   type="email"
                   autoComplete="email"
                   required
-                  className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-stone-600 sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300
+                   placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-stone-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -68,7 +69,7 @@ function login() {
 
           <p className="mt-10 text-center text-sm text-stone-500">
             Üyelik Bilgilerine Ulaşmak İçin : {' '}
-            <a href="#" className="font-semibold leading-6 text-stone-600 hover:text-stone-500">
+            <a href="mailto:info@ormeka.com" className="font-semibold leading-6 text-stone-600 hover:text-stone-500">
               info@ormeka.com
             </a>
           </p>

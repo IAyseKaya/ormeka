@@ -46,7 +46,7 @@ function contact() {
                     </div>
                 </div>
 
-                <div className="form mt-20 mb-20 ">
+                <div className="form mt-20 mb-20  border-r-stone-900 border-">
                     <div className="px-4 py-6 ">
                         <form>
                             <div className="space-y-12">
@@ -73,7 +73,7 @@ function contact() {
                                                     name="first-name"
                                                     id="first-name"
                                                     autoComplete="given-name"
-                                                    className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-stone-600 sm:text-lg sm:leading-6"
+                                                    className="block caret-amber-500 w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-amber-400 sm:text-lg sm:leading-6"
                                                 />
                                             </div>
                                         </div>
@@ -88,7 +88,7 @@ function contact() {
                                                     name="last-name"
                                                     id="last-name"
                                                     autoComplete="family-name"
-                                                    className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-stone-600 sm:text-lg sm:leading-6"
+                                                    className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-amber-400 sm:text-lg sm:leading-6"
                                                 />
                                             </div>
                                         </div>
@@ -103,7 +103,7 @@ function contact() {
                                                     name="email"
                                                     type="email"
                                                     autoComplete="email"
-                                                    className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-stone-600 sm:text-lg sm:leading-6"
+                                                    className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-amber-400 sm:text-lg sm:leading-6"
                                                 />
                                             </div>
                                         </div>
@@ -117,7 +117,7 @@ function contact() {
                                                     name="phone"
                                                     type="phone"
                                                     autoComplete="phone"
-                                                    className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-stone-600 sm:text-lg sm:leading-6"
+                                                    className="block w-full rounded-md border-0 py-1.5 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-amber-400 sm:text-lg sm:leading-6"
                                                 />
                                             </div>
                                         </div>
@@ -130,7 +130,7 @@ function contact() {
                                                     id="message"
                                                     name="message"
                                                     rows={3}
-                                                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-500 sm:text-sm sm:leading-6"
+                                                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-amber-400 sm:text-sm sm:leading-6"
                                                     defaultValue={''}
                                                 />
                                             </div>
@@ -144,13 +144,11 @@ function contact() {
                             </div>
 
                             <div className="mt-6 flex items-center  justify-end">
-
                                 <button
                                     type="submit"
                                     className="rounded-md col-span-full px-6 py-2 shadow-sm text-base font-medium 
-                                    border-4 border-orange-500 bg-stone-700 text-white
-                                    hover:bg-orange-500 hover:text-slate-900
-                                     focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600"
+                                    border-4 border-amber-400 bg-stone-700 text-white
+                                    hover:bg-amber-400 hover:text-slate-900"
                                 >
                                     İletişim Bilgilerini İlet
                                 </button>

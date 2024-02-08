@@ -29,7 +29,7 @@ function MainCarousel() {
                                         
                                             <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center justify-center lg:grid-cols-2 ">
 
-                                                <dd className="pr-10 order-first leading-1 border-spacing-0 m-10 border-r-2 border-stone-100 font-sans font-thin tracking-tight text-white sm:text-4xl lg:text-7xl drop-shadow-lg">
+                                                <dd className="pr-10 order-first leading-1 border-spacing-0 m-10 lg:border-r-2 lg:border-stone-100 font-sans font-thin tracking-tight text-white sm:text-4xl lg:text-7xl drop-shadow-lg">
                                                         {carousel.header}
                                                     </dd>
                                                     <dt className="font-normal text-base leading-7 mr-10 text-white sm:text-2xl lg:text-base drop-shadow-lg font-sans">

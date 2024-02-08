@@ -9,7 +9,7 @@ function contact() {
             <div className="contact grid  px-4 py-6  sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-8 sm:px-0 w-3/5 flex justify-center items-start">
                 <div className='info mt-20 mb-20'>
                     <div className="px-4 sm:px-0">
-                        <h3 className="text-xl font-semibold leading-7 text-stone-900">İletişim</h3>
+                    <h1 className="pt-6 text-3xl font-semibold leading-7 text-stone-900">İletişim Bilgilerimiz</h1>
                         <p className="mt-1 max-w-2xl text-lg leading-6 text-stone-500"> Bizimle Bağlantı Kurun!</p>
                     </div>
                     <div className="mt-6 ">
@@ -25,11 +25,11 @@ function contact() {
                             </div>
                             <div className="px-4 py-6 grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                 <dt className="text-lg font-medium leading-6 text-stone-900">Bizi Arayın</dt>
-                                <dd className="mt-1 text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">orset@orsetinsaat.com.tr</dd>
+                                <dd className="mt-1 text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">0312 348 04 29</dd>
                             </div>
                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                 <dt className="text-lg font-medium leading-6 text-stone-900">Bize Yazın</dt>
-                                <dd className="mt-1 text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">orset@orsetinsaat.com.tr</dd>
+                                <dd className="mt-1 text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">ormekayapi@gmail.com</dd>
                             </div>
                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                 <dd className="mt-1 text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">
@@ -50,17 +50,14 @@ function contact() {
                     <div className="px-4 py-6 ">
                         <form>
                             <div className="space-y-12">
-
-
                                 <div className=" pb-12">
-
                                     <div className="px-0 sm:px-0">
                                         <h3 className="text-xl font-semibold leading-7 text-stone-900">
                                             Sizinle İletişime Geçelim
-                                            </h3>
+                                        </h3>
                                         <p className="mt-1 max-w-2xl text-lg leading-6 text-stone-500">
                                             Her bir adımınızda yanınızda olmak ve en iyi çözümleri sunmak için buradayız.
-                                            </p>
+                                        </p>
                                     </div>
                                     <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 ">
                                         <div className="sm:col-span-3">
@@ -139,10 +136,7 @@ function contact() {
 
                                     </div>
                                 </div>
-
-
                             </div>
-
                             <div className="mt-6 flex items-center  justify-end">
                                 <button
                                     type="submit"
@@ -156,20 +150,17 @@ function contact() {
                         </form>
                     </div>
                 </div>
-
             </div>
             <div className="map h-[500px] w-3/5 mb-20 bg-stone-100">
-            <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12233.412670716589!2d32.9014837278704!3d39.95585599440071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sERE%C4%9EL%C4%B0%20CADDDES%C4%B0%20NO%3A54%20KAYA%20PLAZA%20ALTINDA%C4%9E%20ANKARA%20!5e0!3m2!1str!2sus!4v1707225736674!5m2!1str!2sus" 
-            width="100%" 
-            height="500" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-
-            </iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12233.412670716589!2d32.9014837278704!3d39.95585599440071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sERE%C4%9EL%C4%B0%20CADDDES%C4%B0%20NO%3A54%20KAYA%20PLAZA%20ALTINDA%C4%9E%20ANKARA%20!5e0!3m2!1str!2sus!4v1707225736674!5m2!1str!2sus"
+                    width="100%"
+                    height="500"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
-
         </div>
     );
 }

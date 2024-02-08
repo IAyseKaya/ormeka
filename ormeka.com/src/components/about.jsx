@@ -7,14 +7,14 @@ function about() {
             <div className="nav h-20 bg-stone-100"></div>
             <div className='mt-20 mb-20 w-3/5'>
                 <div className="px-4 sm:px-0">
-                    <h1 className="text-3xl font-semibold leading-7 text-stone-900">Hakkımızda</h1>
+                <h1 className="pt-6 text-3xl font-semibold leading-7 text-stone-900">Hakkımızda</h1>
                     <p className="mt-1 max-w-2xl text-xl leading-6 text-stone-500">Estetiği ve Kaliteyi Bir Araya Getiriyoruz</p>
                 </div>
                 <div className="mt-6 border-t border-stone-100">
                     <dl className="divide-y divide-stone-100 ">
                         <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                             <dt className="text-lg font-bold  font- leading-6 text-stone-900">Biz Kimiz</dt>
-                            <dd className="mt-1 text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">Ormeka İnşaat, 1996 yılında kurulmuş bir inşaat şirketidir ve seçkin konut projeleri üretme amacıyla yola çıkmıştır. Misyonumuz, "İnsanların içinde kendini mutlu, huzurlu ve güvende hissedecekleri mekanlar inşa etmeyi" hedeflemektedir.
+                            <dd className="mt-1 text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">Ormeka İnşaat, 1987 yılında kurulmuş bir inşaat şirketidir ve seçkin konut projeleri üretme amacıyla yola çıkmıştır. Misyonumuz, "İnsanların içinde kendini mutlu, huzurlu ve güvende hissedecekleri mekanlar inşa etmeyi" hedeflemektedir.
                                 <br />
                                 Şirketimizi diğerlerinden ayıran temel özelliklerden biri, projelerinde sadece inşaat ve malzeme kalitesine değil, aynı zamanda çevresel ve sosyal unsurlara da büyük bir önem vermektir. Müşterilerimizin yaşam kalitesini artırmak adına estetik tasarıma odaklanıyor ve projelerimizi bu değerlere uygun bir şekilde geliştiriyoruz.
                                 <br />

@@ -10,8 +10,11 @@ import ProjectsPage from "./ProjectsPage/ProjectsPage.jsx";
 import ProjectPage from "./ProjectPage/ProjectPage.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GroupCompany from "./components/GroupCompany.jsx";
+import FotoGaleri from "./components/fotoGaleri.jsx";
+import SaleProject from "./components/SaleProjects.jsx";
 
 function App() {
+  
 
   return (
     <div
@@ -27,9 +30,10 @@ function App() {
           <Route path="grupsirketleri" element={<GroupCompany/>} />
           <Route path="kurumsal" element={<About />} />
           <Route path="iletisim" element={<Contact />} />
-          <Route path="projeler" element={<ProjectsPage />} />
-          <Route path="proje" element={<ProjectPage />} />
-
+          <Route path="galeri" element={<FotoGaleri />} />
+          <Route path="satisprojeler" exact element={<SaleProject />} /> 
+          <Route path="projeler" exact element={<ProjectsPage />} />  
+          <Route path="proje/:id" element={<ProjectPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

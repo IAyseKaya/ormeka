@@ -3,16 +3,7 @@ import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import logo from "../img/lightormekalogo.png"
 import { PiFacebookLogoThin, PiInstagramLogoThin } from "react-icons/pi";
-
-
-
-const navigation = [
-    { name: 'Projelerimiz', href: '/projeler' },
-    { name: 'Grup Şirketlerimiz', href: '/grupsirketleri' },
-    { name: 'Kurumsal', href: '/kurumsal' },
-    { name: 'İletişim', href: '/iletisim' },
-]
-
+import navigation from "../data/navigation";
 
 function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -31,8 +22,8 @@ function Navbar() {
 
     return (
         <div className="navigation bg-amber-400 sticky top-0 z-50">
-            <div className={navBack ? 'navbar w-full sticky top-0 z-40 h-20 bg-amber-400 text-black transition duration-500  ease-out '
-                : 'navbar w-full sticky top-0 z-50 bg-transparent transition duration-500 ease-out'}>
+            <div className= 'navbar w-full sticky top-0 z-40 h-20 bg-amber-400 text-black transition duration-500  ease-out '
+                >
                 <header className="absolute inset-x-0 top-0 z-30">
                     <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                         <div className=" lg:flex-1 flex items-center justify-center">
@@ -43,17 +34,17 @@ function Navbar() {
                         <div className="flex lg:hidden">
                             <button
                                 type="button"
-                                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+                                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black"
                                 onClick={() => setMobileMenuOpen(true)}
                             >
-                                <span className="sr-only">Open main menu</span>
+                                <span className="sr-only">menu</span>
                                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                             </button>
                         </div>
                         <div className="hidden lg:flex lg:gap-x-12 drop-shadow-2xl">
                             {navigation.map((item) => (
-                                <div className="div hover:border-b-2 hover:border-stone-900  h-10">
-                                    <a key={item.name} href={item.href} className="text-lg font-light leading-6 ">
+                                <div className="div hover:border-b-2 hover:border-stone-900 h-10">
+                                    <a key={item.name} href={item.href} className="text-lg font-light leading-6">
                                         {item.name}
                                     </a>
                                 </div>
@@ -65,7 +56,6 @@ function Navbar() {
                                 <a href="">
                                   <PiFacebookLogoThin className="h-10 w-10 bg-none text-black" />
                                 </a>
-                                
                                 <a href="https://www.instagram.com/ormeka_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                                    <PiInstagramLogoThin className="h-10 w-10 bg-none text-black" /> 
                                 </a>
@@ -88,7 +78,7 @@ function Navbar() {
                                 </a>
                                 <button
                                     type="button"
-                                    className="-m-2.5 rounded-md p-2.5 text-stonei-500"
+                                    className="-m-2.5 rounded-md p-2.5 text-stone-500"
                                     onClick={() => setMobileMenuOpen(false)}
                                 >
                                     <span className="sr-only">Menüyü Kapat</span>
@@ -102,7 +92,7 @@ function Navbar() {
                                             <a
                                                 key={item.name}
                                                 href={item.href}
-                                                className="-mx-3 block rounded-lg px-3 py-2 text-xl font-light  leading-7 text-white hover:bg-amber-400 hover:border-"
+                                                className="-mx-3 block rounded-lg px-3 py-2 text-xl font-light  leading-7 text-white hover:bg-amber-400"
                                             >
                                                 {item.name}
                                             </a>

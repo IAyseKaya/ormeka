@@ -17,7 +17,7 @@ function Footer() {
             Ormeka İnşaat: Güven ve Estetiği Buluşturan 35 Yıl!
           </h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center sm:max-w-xl sm:grid-cols-1  lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            <div className="first-col h-[300px] col-span-4 w-full object-contain lg:col-span-1 flex flex-col items-start justify-start lg:border-stone-400 lg:border-r-2">
+            <div className="first-col h-[400px] col-span-4 w-full object-contain lg:col-span-1 flex flex-col items-start justify-start lg:border-stone-400 lg:border-r-2">
               <a href="/">
                 <img
 
@@ -32,7 +32,7 @@ function Footer() {
                 Ormeka İnşaat, 1987 yılında köklü bir geçmiş ve sağlam bir vizyonla kurulmuş bir inşaat şirketidir. 35 yılı aşkın süredir sektördeki varlığını sürdüren firmamız, seçkin konut projeleri üretme amacıyla yola çıkarak, insanların hayallerini gerçeğe dönüştürmeyi kendisine misyon edinmiştir.
               </p>
             </div>
-            <div className="second-col h-[300px] col-span-4 w-full object-contain lg:col-span-1 flex flex-col items-center justify-start lg:border-stone-400 lg:border-r-2">
+            <div className="second-col h-[400px] col-span-4 w-full object-contain lg:col-span-1 flex flex-col items-center justify-start lg:border-stone-400 lg:border-r-2">
               <p className="text-lg mb-5 leading-6 text-stone-300">KURUMSAL</p>
               {navigation.map((item) => (
                 <div className="div  h-10">
@@ -43,7 +43,7 @@ function Footer() {
 
               ))}
             </div>
-            <div className="third-col h-[300px] col-span-4 w-full object-contain lg:col-span-1 flex flex-col items-center justify-between">
+            <div className="third-col h-[400px] col-span-4 w-full object-contain lg:col-span-1 flex flex-col items-center justify-between">
               <div className="flex flex-col items-center justify-center">
                 <div className="group m-2">
                   <img

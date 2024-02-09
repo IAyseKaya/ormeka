@@ -1,9 +1,9 @@
 const navigation = [
-    { name: 'Satıştaki Projelerimiz', href: '/satisprojeler' },
+    { name: 'Anasayfa', href: '/projeler' },
+    { name: 'Kurumsal', href: '/kurumsal' },
     { name: 'Projelerimiz', href: '/projeler' },
     { name: 'Grup Şirketlerimiz', href: '/grupsirketleri' },
-    { name: 'Kurumsal', href: '/kurumsal' },
+    { name: 'Fotoğraf Galerisi' , href: '/galeri'},
     { name: 'İletişim', href: '/iletisim' },
-    { name: 'Fotoğraf Galerisi' , href: '/galeri'}
 ]
 export default navigation;

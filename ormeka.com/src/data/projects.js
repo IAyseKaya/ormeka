@@ -10,10 +10,32 @@ import binonbir from "../img/projects/bulvarBinOnBir/bulvarbinonbir.JPG";
 const projects = [
   {
     id: 1,
+    name: "BULVAR 1011",
+    title:
+      "Modern Yaşamın Merkezinde, 180 Daire ve 1.300 m2 Ticari Alanla Tamamlanan Proje!",
+    href: "/proje:3",
+    iframe:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.337216587784!2d32.84993317638467!3d39.95621268353867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f29e9f965b3%3A0x200dcf44121d6a61!2sBULVAR%201011!5e0!3m2!1str!2str!4v1707378385183!5m2!1str!2str",
+    descriptions: {
+      des1: "Bulvar 1011, şehrin kalbinde modern yaşamın yepyeni bir simgesi olarak karşınızda! Toplamda 180 adet daire ve 1.300 m2 ticari alandan oluşan bu özel proje, başarıyla tamamlanmış ve iskanı alınmıştır.",
+      des2: "Her biri özenle tasarlanmış 180 konut, modern yaşamın konforunu ve şıklığını bir araya getiriyor. Geniş iç mekanları, çağdaş detaylarla buluşarak sakinlere huzurlu bir yaşam sunuyor. Ayrıca, projemizin ticari alanları, iş dünyasına yeni bir soluk getiriyor.",
+      des3: "Projemiz, düşük yoğunluklu konseptiyle sakinlere özel bir atmosfer sunarken, aynı zamanda şehrin merkezine kolay ulaşım imkanı sağlayarak avantajlı bir konumda bulunuyor.",
+      des4: "Daha fazla bilgi almak, yerinde inceleme yapmak veya rezervasyon yaptırmak için bizimle iletişime geçmekten çekinmeyin. Sizinle birlikte, bu özel projenin sunduğu ayrıcalıklı yaşamın tadını çıkarmak için sabırsızlanıyoruz!",
+    },
+    images: {
+      image1src: binonbir,
+      image2src: binonbir,
+      image3src: binonbir,
+      image4src: binonbir,
+      href: "/proje:3",
+      imgAlt: "ormeka inşaat",
+    },
+  },
+  {
+    id: 2,
     name: "Kaya Plaza",
     title: "Modern Yaşamın Zirvesinde Bir Proje",
-    href: "/proje",
-    satis: true,
+    href: "/proje:1",
     sahibinden:
       "https://www.sahibinden.com/ilan/emlak-is-yeri-satilik-batikent-ostim-kaya-plaza-da-cadde-uzeri-satilik-dukkan-1143778863/detay",
     streetview:
@@ -31,16 +53,15 @@ const projects = [
       image2src: kayaplazabatıkent2,
       image3src: kayaplazabatıkent1,
       image4src: kayaplazabatıkent2,
-      href: "/proje",
+      href: "/proje:1",
       imgAlt: "ormeka inşaat",
     },
   },
   {
-    id: 2,
+    id: 3,
     name: "Kaya Plaza Siteler",
     title: "2200 m2 Kapalı Kullanım Alanına Sahip Tamamlanan ve İskanı Alınmış Proje",
     href: "/proje:2",
-    satis: true,
     sahibinden:
       "https://www.sahibinden.com/ilan/emlak-bina-satilik-ersal-dan-siteler-de-cadde-uzeri-full-plus-full-yapili-satilik-bina-1143791180/detay",
     iframe:
@@ -57,30 +78,6 @@ const projects = [
       image3src: kayaplazasiteler3,
       image4src: kayaplazasiteler2,
       href: "/projeler",
-      imgAlt: "ormeka inşaat",
-    },
-  },
-  {
-    id: 3,
-    name: "BULVAR 1011",
-    title:
-      "Modern Yaşamın Merkezinde, 180 Daire ve 1.300 m2 Ticari Alanla Tamamlanan Proje!",
-    href: "/proje:3",
-    satis: false,
-    iframe:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.337216587784!2d32.84993317638467!3d39.95621268353867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f29e9f965b3%3A0x200dcf44121d6a61!2sBULVAR%201011!5e0!3m2!1str!2str!4v1707378385183!5m2!1str!2str",
-    descriptions: {
-      des1: "Bulvar 1011, şehrin kalbinde modern yaşamın yepyeni bir simgesi olarak karşınızda! Toplamda 180 adet daire ve 1.300 m2 ticari alandan oluşan bu özel proje, başarıyla tamamlanmış ve iskanı alınmıştır.",
-      des2: "Her biri özenle tasarlanmış 180 konut, modern yaşamın konforunu ve şıklığını bir araya getiriyor. Geniş iç mekanları, çağdaş detaylarla buluşarak sakinlere huzurlu bir yaşam sunuyor. Ayrıca, projemizin ticari alanları, iş dünyasına yeni bir soluk getiriyor.",
-      des3: "Projemiz, düşük yoğunluklu konseptiyle sakinlere özel bir atmosfer sunarken, aynı zamanda şehrin merkezine kolay ulaşım imkanı sağlayarak avantajlı bir konumda bulunuyor.",
-      des4: "Daha fazla bilgi almak, yerinde inceleme yapmak veya rezervasyon yaptırmak için bizimle iletişime geçmekten çekinmeyin. Sizinle birlikte, bu özel projenin sunduğu ayrıcalıklı yaşamın tadını çıkarmak için sabırsızlanıyoruz!",
-    },
-    images: {
-      image1src: binonbir,
-      image2src: binonbir,
-      image3src: binonbir,
-      image4src: binonbir,
-      href: "/proje:3",
       imgAlt: "ormeka inşaat",
     },
   },

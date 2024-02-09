@@ -39,7 +39,7 @@ function GroupCompany() {
  <div className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-        <h1 className="pt-6 text-3xl font-semibold leading-7 text-stone-900">Grup Şirketlerimiz</h1>
+        <h1 className="pt-6 pl-1 sm:pl-0 text-3xl font-semibold leading-7 text-stone-900">Grup Şirketlerimiz</h1>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {companies.map((company) => (

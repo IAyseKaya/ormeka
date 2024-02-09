@@ -23,7 +23,7 @@ function MainPage() {
             <SaleProject/>
             
             <div className="group">
-                <div className=" py-24 sm:py-32">
+                <div className=" py-4 sm:py-3 mb-10">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
                             {stats.map((stat) => (

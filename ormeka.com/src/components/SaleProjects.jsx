@@ -1,18 +1,19 @@
-import salesproject from "../data/projects";
+import lastproject from "../data/projects";
 import { Link } from 'react-router-dom';
 
 
 function SaleProject() {
 
+    const lastTwoProject = lastproject.slice(-2);
     return (
         <div className="projects">
             <div className="bg-stone-100">
                 <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
-                    <h1 className="pt-6 text-3xl font-semibold leading-7 text-stone-900">Satıştaki Projelerimiz</h1>
+                    <h1 className="pt-6 pl-1 sm:pl-0 text-3xl font-semibold leading-7 text-stone-900">Son Projelerimiz</h1>
                 </div>
 
-                {salesproject.map((project, index) => (project.satis &&
-                    <div key={project.id} className="pt-6">
+                {lastTwoProject.map((project, index) => (
+                    <div key={index} className="pt-6">
                         <Link to={`/proje/${project.id}`}></Link>
                         <div key={project.id} className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
 

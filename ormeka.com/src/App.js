@@ -31,7 +31,6 @@ function App() {
           <Route path="kurumsal" element={<About />} />
           <Route path="iletisim" element={<Contact />} />
           <Route path="galeri" element={<FotoGaleri />} />
-          <Route path="satisprojeler" exact element={<SaleProject />} /> 
           <Route path="projeler" exact element={<ProjectsPage />} />  
           <Route path="proje/:id" element={<ProjectPage />} />
         </Routes>

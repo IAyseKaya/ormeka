@@ -46,6 +46,8 @@ function Footer() {
             <div className="third-col h-[400px] col-span-4 w-full object-contain lg:col-span-1 flex flex-col items-center justify-between">
               <div className="flex flex-col items-center justify-center">
                 <div className="group m-2">
+                  <a target="_blank" rel="noopener noreferrer" 
+                  href='https://www.orsetinsaat.com.tr/'>
                   <img
 
                     className="col-span-2 h-10  w-outo object-cover lg:col-span-1 opacity-70"
@@ -53,10 +55,12 @@ function Footer() {
                     alt="Transistor"
                     width={158}
                     height={48}
-                  />
+                  /></a>
                 </div>
 
                 <div className="group m-2">
+                <a target="_blank" rel="noopener noreferrer" 
+                  href='/'>
                   <img
 
                     className="col-span-2 h-10  w-outo object-cover lg:col-span-1 opacity-70"
@@ -64,9 +68,11 @@ function Footer() {
                     alt="Transistor"
                     width={158}
                     height={48}
-                  />
+                  /></a>
                 </div>
                 <div className="group m-2">
+                <a target="_blank" rel="noopener noreferrer" 
+                  href='/'>
                   <img
 
                     className="col-span-2 h-10  w-outo object-cover lg:col-span-1 opacity-70"
@@ -74,7 +80,7 @@ function Footer() {
                     alt="Transistor"
                     width={158}
                     height={48}
-                  />
+                  /></a>
                 </div>
 
                 <div className="social flex items-center justify-between w-[158px] mt-10">

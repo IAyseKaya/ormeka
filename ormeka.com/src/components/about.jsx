@@ -1,10 +1,12 @@
+import logo from '../img/ormekalogokareseffaf.png';
 function about() {
 
     return (
         <div className="about flex flex-col justify-center items-center">
+            <img src={logo} alt="ormeka" className='w-auto h-full absolute z-10 opacity-20'/>
             <div className="nav h-20 bg-stone-100"></div>
-            <div className='mt-20 mb-20 w-3/5'>
-                <div className="px-0 lg:px-4 sm:px-0">
+            <div className='mt-20 mb-20 w-3/5 z-20'>
+                <div  className="px-0 lg:px-4 sm:px-0">
                 <h1 className="pt-6 text-3xl font-semibold leading-7 text-stone-900">Hakkımızda</h1>
                     <p className="mt-1 max-w-2xl text-xl leading-6 text-stone-500">Estetiği ve Kaliteyi Bir Araya Getiriyoruz</p>
                 </div>

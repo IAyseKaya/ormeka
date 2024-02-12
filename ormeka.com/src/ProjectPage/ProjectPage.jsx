@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import projects from '../data/projects';
-
+import sahibinden from '../img/sahibinden.png';
 import { useParams } from 'react-router-dom';
 import ProjectCarousel from '../components/ProjectCarousel';
 
@@ -44,11 +44,14 @@ function ProjectPage() {
                                     </li>
                                 </ul>
                                 <a
+                                target="_blank" rel="noopener noreferrer"
                                     href={project.sahibinden}
                                     className={project.sahibinden ? 'project-s-button mt-10 flex w-full items-center justify-center rounded-mdbg-stone-600 px-8 py-3 text-base font-medium border-4 border-amber-400 bg-stone-700 text-white hover:bg-amber-400 hover:text-slate-900 '
                                         : 'hidden'}
                                 >
-                                    Projeyi Daha Ayrıntılı İncele
+                                  <img src={sahibinden} alt="sahibinden-link"
+                                  className='h-10 w-10 rounded-full mr-10 border-stone-900 border-1'
+                                  />  Projeyi Sahibinden'de İncele
                                 </a>
                             </div>
                             <div className="frames w-full lg:flex">

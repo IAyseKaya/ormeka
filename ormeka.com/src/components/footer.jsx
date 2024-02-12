@@ -85,7 +85,7 @@ function Footer() {
 
                 <div className="social flex items-center justify-between w-[158px] mt-10">
                   <a target="_blank" rel="noopener noreferrer"
-                   href="">
+                   href="https://www.facebook.com/people/Ormeka/61555985927987/?mibextid=LQQJ4d">
                     <PiFacebookLogoThin className="h-10 w-10 m-2 bg-none text-stone-400 hover:text-amber-400" />
                   </a>
                   <a target="_blank" rel="noopener noreferrer" 

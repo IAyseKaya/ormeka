@@ -54,7 +54,7 @@ function Navbar() {
                         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                             <div className="social flex justify-between">
                                 <a target="_blank" rel="noopener noreferrer"
-                                 href="">
+                                 href="https://www.facebook.com/people/Ormeka/61555985927987/?mibextid=LQQJ4d">
                                   <PiFacebookLogoThin className="h-10 w-10 bg-none text-black" />
                                 </a>
                                 <a target="_blank" rel="noopener noreferrer"

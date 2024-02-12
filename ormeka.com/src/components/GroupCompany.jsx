@@ -1,4 +1,4 @@
-import orsetlogo from "../img/ek/orsetlogo.jpg";
+import orsetlogo from "../img/ek/orsetlogo.png";
 import yapilogo from "../img/ek/yapilogo.png";
 import motorslogo from "../img/ek/motorslogo.png"
 import orset from "../img/ek/orsetbulvar1011.jpeg";

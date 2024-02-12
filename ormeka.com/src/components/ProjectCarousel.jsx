@@ -89,12 +89,12 @@ const ProjectCarousel = ({ image }) => {
         document.removeEventListener('touchend', handleTouchEnd);
       };
     }
-  }, [lightboxIsOpen, handleTouchStart, handleTouchMove, handleTouchEnd]);
-
+  }, 
+  [lightboxIsOpen, handleTouchStart, handleTouchMove, handleTouchEnd]);
 
   return (
     <div>
-      <div className="grid sm:grid-cols-2 sm:h-[400px] lg:h-[600px]">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 sm:h-[400px] lg:h-[600px]">
         {image.map((image, index) => (
           <div
             key={index}
@@ -104,15 +104,15 @@ const ProjectCarousel = ({ image }) => {
           >
             <img
               src={image}
-              alt={`Slide ${index + 1}`}
-              className="w-full h-full cursor-pointer object-center object-cover overflow-hidden"
+              alt="orsetİnsaat"
+              className="w-full h-full cursor-pointer object-center object-cover overflow-hidden "
               onClick={() => openLightbox(index)}
             />
             {hoveredIndex === index && (
               <button
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent p-2 text-gray-800 rounded"
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent p-2 text-white w-10 h-10 "
                 onClick={() => console.log(`Button clicked for image ${index + 1}`)}
-              ><MagnifyingGlassIcon onClick={() => openLightbox(index)} className="text-white relative w-10 h-10 cursor-pointer contrast-125"/>
+              ><MagnifyingGlassIcon onClick={() => openLightbox(index)} className="text-white relative w-10 h-10 cursor-pointer contrast-125"/> İncele
               </button>
             )}
           </div>

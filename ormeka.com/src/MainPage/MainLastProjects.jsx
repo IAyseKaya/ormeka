@@ -1,4 +1,4 @@
-import lastproject from "../data/projects";
+
 import { Link } from 'react-router-dom';
 import projects from '../data/projects';
 import { useParams } from 'react-router-dom';
@@ -10,7 +10,7 @@ function MainLastProjects() {
     const project = projects.find(project => project.link === link)
 
 
-    const lastTwoProject = lastproject.slice(-2);
+    const lastTwoProject = projects.slice(-2);
     return (
         <div className="projects">
             <div className="bg-stone-100">
@@ -28,30 +28,30 @@ function MainLastProjects() {
                                 <a href={`/proje/${project.link}`}> <img
                                         src={project.images.image1src}
                                         alt={project.imgAlt}
-                                        className="h-full w-full object-cover object-center"
+                                        className="h-full w-full object-cover object-center hover:scale-110 transition duration-500  ease-out"
                                     /></a>
                                 </div>
                                 <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
                                     <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
                                     <a href={`/proje/${project.link}`}> <img
-                                            src={project.images.image1src}
+                                            src={project.images.image2src}
                                             alt={project.imgAlt}
-                                            className="h-full w-full object-cover object-center"
+                                            className="h-full w-full object-cover object-center  hover:scale-110 transition duration-500  ease-out"
                                         /></a>
                                     </div>
                                     <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
                                     <a href={`/proje/${project.link}`}>  <img
-                                            src={project.images.image1src}
+                                            src={project.images.image3src}
                                             alt={project.imgAlt}
-                                            className="h-full w-full object-cover object-center"
+                                            className="h-full w-full object-cover object-center  hover:scale-110 transition duration-500  ease-out"
                                         /></a>
                                     </div>
                                 </div>
                                 <div className="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
                                 <a href={`/proje/${project.link}`}> <img
-                                        src={project.images.image1src}
+                                        src={project.images.image4src}
                                         alt={project.imgAlt}
-                                        className="h-full w-full object-cover object-center"
+                                        className="h-full w-full object-cover object-center  hover:scale-110 transition duration-500  ease-out"
                                     /></a>
                                 </div>
 

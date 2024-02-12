@@ -4,8 +4,8 @@ import Carousel from 'react-bootstrap/Carousel';
 function fotoGaleri() {
     return (
         <div className="images flex items-center justify-center">
-            <div className="w-full  flex items-center justify-center">
-                <Carousel fade className="flex items-center justify-center ">
+            <div className="w-full  lg:w-3/5  flex items-center justify-center">
+                <Carousel fade className="w-full h-[740px] flex items-center justify-center ">
                     {
                         galeri.map((foto) =>
                             <Carousel.Item key={foto.id}>

@@ -18,11 +18,12 @@ function ProjectsPage() {
                                     <div className="border-4 border-amber-400 bg-stone-700 text-white
                                      relative h-80 w-full overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 contrast-125 brightness-110 sm:h-64 group-hover:scale-110 transition duration-500  ease-out  ">
                                         <div className="blackout absolute w-full h-full bg-black opacity-30"></div>
+                                        <a href={`/proje/${project.id}`}>
                                         <img
                                             src={project.images.image1src}
                                             alt={project.images.imgAlt}
                                             className="h-full w-full object-cover object-center "
-                                        />
+                                        /></a>
                                         <a href={`/proje/${project.id}`}
                                         className="project-hover-button mt-10 flex w-full items-center justify-center rounded-mdbg-stone-600 px-8 py-3 text-base font-medium 
                                         border-4 border-amber-400 bg-stone-700 text-white

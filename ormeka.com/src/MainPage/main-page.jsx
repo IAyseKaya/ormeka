@@ -1,5 +1,6 @@
 
 import MainCarousel from "./Carousel";
+import MainLastProjects from "./MainLastProjects";
 
 
 function classNames(...classes) {
@@ -18,9 +19,8 @@ function MainPage() {
             <div className="slider-container mb-20 max-h-[800px] overflow-hidden ">
              <MainCarousel/>  
             </div>
+            <MainLastProjects/>
 
-        
-            
             <div className="group">
                 <div className=" py-4 sm:py-3 mb-10">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">

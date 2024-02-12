@@ -30,8 +30,8 @@ const projects = [
       image2src: binonbir,
       image3src: binonbir,
       image4src: binonbir,
-      imgAlt: "ormeka inşaat",
-    },
+      
+    },imgAlt: "ormeka inşaat",
   },
   {
     id: 2,
@@ -56,8 +56,8 @@ const projects = [
       image2src: kayaplazabatikent2,
       image3src: kayaplazabatikent3,
       image4src: kayaplazabatikent4,
-      imgAlt: "ormeka inşaat",
-    },
+      
+    },imgAlt: "ormeka inşaat",
   },
   {
     id: 3,
@@ -80,8 +80,8 @@ const projects = [
       image2src: kayaplazasiteler2,
       image3src: kayaplazasiteler3,
       image4src: kayaplazasiteler2,
-      imgAlt: "ormeka inşaat",
-    },
+      
+    },imgAlt: "ormeka inşaat",
   },
 ];
 export default projects;

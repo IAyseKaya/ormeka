@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import ProjectCarousel from '../components/ProjectCarousel';
 
 function ProjectPage() {
-    const { id, title } = useParams();
+    const { id, title ,images } = useParams();
     const project = projects.find(project => project.id === parseInt(id, 10));
     const image = [
         project.images.image1src,

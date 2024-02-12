@@ -1,12 +1,12 @@
-import Carousel from 'react-bootstrap/Carousel';
 import projects from '../data/projects';
 import sahibinden from '../img/sahibinden.png';
 import { useParams } from 'react-router-dom';
 import ProjectCarousel from '../components/ProjectCarousel';
 
 function ProjectPage() {
-    const { id, title ,images } = useParams();
-    const project = projects.find(project => project.id === parseInt(id, 10));
+    const { id,link } = useParams();
+    const project = projects.find(project => project.link === link)
+    
     const image = [
         project.images.image1src,
         project.images.image2src,

@@ -31,7 +31,7 @@ function App() {
           <Route path="iletisim" element={<Contact />} />
           <Route path="galeri" element={<FotoGaleri />} />
           <Route path="projeler" exact element={<ProjectsPage />} />  
-          <Route path="proje/:id" element={<ProjectPage />} />
+          <Route path="proje/:link" element={<ProjectPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -13,7 +13,7 @@ const projects = [
   {
     id: 1,
     name: "BULVAR 1011",
-    link:"bulvar1011",
+    link:"bulvar-1011",
     title:
       "Modern Yaşamın Merkezinde, 180 Daire ve 1.300 m2 Ticari Alanla Tamamlanan Proje!",
     href: "/proje:3",
@@ -36,9 +36,9 @@ const projects = [
   {
     id: 2,
     name: "Kaya Plaza",
-    link:"kayaplaza",
+    link:"kaya-plaza",
     title: "Modern Yaşamın Zirvesinde Bir Proje",
-    href: "/proje:1",
+   
     sahibinden:
       "https://www.sahibinden.com/ilan/emlak-is-yeri-satilik-batikent-ostim-kaya-plaza-da-cadde-uzeri-satilik-dukkan-1143778863/detay",
     streetview:
@@ -62,9 +62,9 @@ const projects = [
   {
     id: 3,
     name: "Kaya Plaza Siteler",
-    link:"kayaplazasiteler",
+    link:"kaya-plaza-siteler",
     title: "2200 m2 Kapalı Kullanım Alanına Sahip Tamamlanan ve İskanı Alınmış Proje",
-    href: "/proje:2",
+    
     sahibinden:
       "https://www.sahibinden.com/ilan/emlak-bina-satilik-ersal-dan-siteler-de-cadde-uzeri-full-plus-full-yapili-satilik-bina-1143791180/detay",
     iframe:
@@ -81,7 +81,8 @@ const projects = [
       image3src: kayaplazasiteler3,
       image4src: kayaplazasiteler2,
       
-    },imgAlt: "ormeka inşaat",
+    },
+    imgAlt: "ormeka inşaat",
   },
 ];
 export default projects;

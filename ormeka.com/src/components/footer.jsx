@@ -78,10 +78,12 @@ function Footer() {
                 </div>
 
                 <div className="social flex items-center justify-between w-[158px] mt-10">
-                  <a href="">
+                  <a target="_blank" rel="noopener noreferrer"
+                   href="">
                     <PiFacebookLogoThin className="h-10 w-10 m-2 bg-none text-stone-400 hover:text-amber-400" />
                   </a>
-                  <a href="https://www.instagram.com/ormeka_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                  <a target="_blank" rel="noopener noreferrer" 
+                  href="https://www.instagram.com/ormeka_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <PiInstagramLogoThin className="h-10 w-10 m-2 bg-none text-stone-400 hover:text-amber-400" />
                   </a>
 

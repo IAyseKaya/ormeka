@@ -77,7 +77,9 @@ const image = [
                                 <form className="">
                                     <a className="flex w-full items-center justify-center rounded-mdbg-stone-600 px-8 py-3 text-base font-medium 
                                         border-4 border-amber-400 bg-stone-700 text-white
-                                        hover:bg-amber-400 hover:text-slate-900 " href={`/projeler/${project.link}`}>
+                                        hover:bg-amber-400 hover:text-slate-900 " target="_blank" 
+                                        rel="noopener noreferrer"
+                                        href={`/projeler/${project.link}`}>
                                         Projeyi İncele
                                     </a>
                                 </form>

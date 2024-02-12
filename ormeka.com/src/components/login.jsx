@@ -69,7 +69,8 @@ function login() {
 
           <p className="mt-10 text-center text-sm text-stone-500">
             Üyelik Bilgilerine Ulaşmak İçin : {' '}
-            <a href="mailto:ormekayapi@gmail.com" className="font-semibold leading-6 text-stone-600 hover:text-stone-500">
+            <a target="_blank" rel="noopener noreferrer"
+            href="mailto:ormekayapi@gmail.com" className="font-semibold leading-6 text-stone-600 hover:text-stone-500">
               ormekayapi@gmail.com
             </a>
           </p>

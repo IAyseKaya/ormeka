@@ -36,6 +36,7 @@ function MainCarousel() {
                                                     <dt className="font-normal flex flex-col items-center justify-center text-base leading-7 mr-10 text-white sm:text-2xl lg:text-base drop-shadow-lg font-sans">
                                                         {carousel.description} <br />
                                                         <a
+                                                            target="_blank" rel="noopener noreferrer"
                                                             href={carousel.href}
                                                             className="flex items-center justify-center sm:mt-5 font-thin text-base leading-7 text-white sm:text-xl lg:text-base drop-shadow-lg font-sans"
                                                         >

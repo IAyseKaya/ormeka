@@ -49,7 +49,8 @@ function GroupCompany() {
                     
                 </div>
                 <h3 className="mt-6 text-base font-semibold text-gray-900">
-                  <a href={company.href}>
+                  <a target="_blank" rel="noopener noreferrer"
+                   href={company.href}>
                     <span className="absolute inset-0 " />
                     {company.name}
                   </a>

@@ -4,8 +4,8 @@ function contact() {
 
     return (
         <div className="contact flex flex-col justify-center items-center ">
-            <div className="contact grid  sm:py-6  sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-8 sm:px-0 w-3/5 flex justify-center items-start">
-                <div className='info mt-20 mb-20'>
+            <div className="contact grid  sm:py-6  sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-8 sm:px-0 w-3/5 lg:flex justify-center items-start">
+                <div className='info mt-20 mb-20 lg:w-1/2'>
                     <div className="sm:px-4 px-0">
                         <h1 className="pt-6 text-3xl font-semibold leading-7 text-stone-900">İletişim Bilgilerimiz</h1>
                         <p className="mt-1 max-w-2xl text-base sm:text-lg leading-6 text-stone-500"> Bizimle Bağlantı Kurun!</p>

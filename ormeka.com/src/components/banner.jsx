@@ -23,7 +23,9 @@ function banner() {
           <p className="sm:text-lg text-sm leading-6 text-stone-300">
             Telefon
           </p>
-          <a href="tel:+903123480429" className="sm:text-lg text-sm  font-extralight leading-6 text-stone-300">
+          <a 
+          target="_blank" rel="noopener noreferrer"
+          href="tel:+903123480429" className="sm:text-lg text-sm  font-extralight leading-6 text-stone-300">
             0312 348 04 29
           </a>
         </div>
@@ -34,7 +36,8 @@ function banner() {
           <p className="sm:text-lg text-sm  leading-6 text-stone-300">
             Mail
           </p>
-          <a href="mailto:ormekayapi@gmail.com" className="sm:text-lg text-sm  font-extralight leading-6 text-stone-300">
+          <a target="_blank" rel="noopener noreferrer"
+          href="mailto:ormekayapi@gmail.com" className="sm:text-lg text-sm  font-extralight leading-6 text-stone-300">
             ormekayapi@gmail.com
           </a>
         </div>
@@ -45,7 +48,8 @@ function banner() {
           <p className="sm:text-lg text-sm  leading-6 text-stone-300">
             Konum
           </p>
-          <a href="https://maps.app.goo.gl/e3f3JDJGzJqLvBXV9" className="sm:text-lg text-sm  font-extralight  leading-6 text-stone-300">
+          <a target="_blank" rel="noopener noreferrer"
+          href="https://maps.app.goo.gl/e3f3JDJGzJqLvBXV9" className="sm:text-lg text-sm  font-extralight  leading-6 text-stone-300">
             EREĞLİ CADDDESİ NO:54 <br />
             KAYA PLAZA ALTINDAĞ/ANKARA
           </a>

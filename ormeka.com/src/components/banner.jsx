@@ -1,4 +1,4 @@
-import { XMarkIcon, PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/20/solid'
+import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/20/solid'
 
 import logo from "../img/lightormekalogo.png"
 

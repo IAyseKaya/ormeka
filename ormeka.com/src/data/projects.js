@@ -1,5 +1,7 @@
-import kayaplazabatıkent1 from "../img/projects/kayaPlazaBatikent/kayaplazabatıkent1.JPG";
-import kayaplazabatıkent2 from "../img/projects/kayaPlazaBatikent/kayaplazabatıkent2.jpg";
+import kayaplazabatikent1 from "../img/projects/kayaPlazaBatikent/kayaplazabatikent1.png";
+import kayaplazabatikent2 from "../img/projects/kayaPlazaBatikent/kayaplazabatıkent2.png";
+import kayaplazabatikent3 from "../img/projects/kayaPlazaBatikent/kayaplazabatıkent3.png";
+import kayaplazabatikent4 from "../img/projects/kayaPlazaBatikent/kayaplazabatıkent4.png";
 
 import kayaplazasiteler1 from "../img/projects/kayaPlazaSiteler/kayaplazasiteler.JPG";
 import kayaplazasiteler2 from "../img/projects/kayaPlazaSiteler/kayaplazasiteleryan.JPG";
@@ -11,6 +13,7 @@ const projects = [
   {
     id: 1,
     name: "BULVAR 1011",
+    link:"bulvar1011",
     title:
       "Modern Yaşamın Merkezinde, 180 Daire ve 1.300 m2 Ticari Alanla Tamamlanan Proje!",
     href: "/proje:3",
@@ -27,13 +30,13 @@ const projects = [
       image2src: binonbir,
       image3src: binonbir,
       image4src: binonbir,
-      href: "/proje:3",
       imgAlt: "ormeka inşaat",
     },
   },
   {
     id: 2,
     name: "Kaya Plaza",
+    link:"kayaplaza",
     title: "Modern Yaşamın Zirvesinde Bir Proje",
     href: "/proje:1",
     sahibinden:
@@ -49,17 +52,17 @@ const projects = [
       des4: "Eğer siz de modern bir yaşamın tadını çıkarmak, şehrin kalbindeki bu özel projeyi keşfetmek istiyorsanız, Kaya Plaza sizi bekliyor. Size hayalinizdeki yaşam alanını sunmak ve ayrıcalıklı bir yaşamın kapılarını aralamak için sabırsızlanıyoruz. Detaylı bilgi ve rezervasyon için bize ulaşın, Kaya Plaza ailesine katılın!",
     },
     images: {
-      image1src: kayaplazabatıkent1,
-      image2src: kayaplazabatıkent2,
-      image3src: kayaplazabatıkent1,
-      image4src: kayaplazabatıkent2,
-      href: "/proje:1",
+      image1src: kayaplazabatikent1,
+      image2src: kayaplazabatikent2,
+      image3src: kayaplazabatikent3,
+      image4src: kayaplazabatikent4,
       imgAlt: "ormeka inşaat",
     },
   },
   {
     id: 3,
     name: "Kaya Plaza Siteler",
+    link:"kayaplazasiteler",
     title: "2200 m2 Kapalı Kullanım Alanına Sahip Tamamlanan ve İskanı Alınmış Proje",
     href: "/proje:2",
     sahibinden:
@@ -77,7 +80,6 @@ const projects = [
       image2src: kayaplazasiteler2,
       image3src: kayaplazasiteler3,
       image4src: kayaplazasiteler2,
-      href: "/projeler",
       imgAlt: "ormeka inşaat",
     },
   },

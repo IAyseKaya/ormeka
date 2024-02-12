@@ -7,7 +7,7 @@ function contact() {
             <div className="contact grid  sm:py-6  sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-8 sm:px-0 w-3/5 flex justify-center items-start">
                 <div className='info mt-20 mb-20'>
                     <div className="sm:px-4 px-0">
-                    <h1 className="pt-6 text-3xl font-semibold leading-7 text-stone-900">İletişim Bilgilerimiz</h1>
+                        <h1 className="pt-6 text-3xl font-semibold leading-7 text-stone-900">İletişim Bilgilerimiz</h1>
                         <p className="mt-1 max-w-2xl text-base sm:text-lg leading-6 text-stone-500"> Bizimle Bağlantı Kurun!</p>
                     </div>
                     <div className="mt-6 ">
@@ -17,17 +17,28 @@ function contact() {
                                 </dd>
                             </div>
                             <div className="px-1 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt className="text-sm sm:text-lg font-medium leading-6 text-stone-900">Adresimiz</dt>
-                                <dd className=" text-sm sm:text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">
-                                    Ereğli Caddesi NO:54 <br /> KAYA PLAZA <br /> Altındağ/ANKARA</dd>
+                                <dt className="text-sm sm:text-lg font-medium leading-6 text-stone-900">
+                                    Adresimiz
+                                </dt>
+                                <dd className="flex text-sm sm:text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">
+                                    <a href="https://maps.app.goo.gl/e3f3JDJGzJqLvBXV9" >
+                                        EREĞLİ CADDDESİ NO:54 <br />
+                                        KAYA PLAZA ALTINDAĞ/ANKARA
+                                    </a></dd>
                             </div>
                             <div className="px-1 py-6 grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt className="text-sm sm:text-lg font-medium leading-6 text-stone-900">Bizi Arayın</dt>
-                                <dd className=" text-sm sm:text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">0312 348 04 29</dd>
+                                <dt className="flex text-sm sm:text-lg font-medium leading-6 text-stone-900">
+                                    Bizi Arayın
+                                    </dt>
+                                <dd className="flex text-sm sm:text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">
+                                    <a href="tel:+903123480429"> 0312 348 04 29</a></dd>
                             </div>
                             <div className="px-1 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                <dt className="text-sm sm:text-lg font-medium leading-6 text-stone-900">Bize Yazın</dt>
-                                <dd className=" text-sm sm:text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">ormekayapi@gmail.com</dd>
+                                <dt className="text-sm sm:text-lg font-medium leading-6 text-stone-900">
+                                Bize Yazın
+                                </dt>
+                                <dd className=" text-sm sm:text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">
+                                    <a href="mailto:ormekayapi@gmail.com">ormekayapi@gmail.com</a></dd>
                             </div>
                             <div className="px-1 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                 <dd className="text-sm sm:text-lg leading-6 text-stone-700 sm:col-span-2 sm:mt-0">
@@ -154,9 +165,9 @@ function contact() {
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3058.3487357016656!2d32.9107106!3d39.9559551!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d352125b6ffa83%3A0xe0883b17cf33b9a2!2zw4dpxJ9pbHRlcGUsIEVyZcSfbGkgQ2QuIE5vOjU0LCAwNjE2NSBNYW1hay9BbmthcmE!5e0!3m2!1str!2str!4v1707374043070!5m2!1str!2str"
                     width="100%"
                     height="500"
-                    allowfullscreen=""
+                    allowFullScreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
+                    referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
         </div>

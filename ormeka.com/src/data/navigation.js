@@ -1,5 +1,5 @@
 const navigation = [
-    { name: 'Anasayfa', href: '/projeler' },
+    { name: 'Anasayfa', href: '/' },
     { name: 'Kurumsal', href: '/kurumsal' },
     { name: 'Projelerimiz', href: '/projeler' },
     { name: 'Grup Şirketlerimiz', href: '/grupsirketleri' },

@@ -11,7 +11,6 @@ import ProjectPage from "./ProjectPage/ProjectPage.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GroupCompany from "./components/GroupCompany.jsx";
 import FotoGaleri from "./components/fotoGaleri.jsx";
-import SaleProject from "./components/SaleProjects.jsx";
 
 function App() {
   

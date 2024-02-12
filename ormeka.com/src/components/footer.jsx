@@ -35,7 +35,7 @@ function Footer() {
             <div className="second-col h-[400px] col-span-4 w-full object-contain lg:col-span-1 flex flex-col items-center justify-start lg:border-stone-400 lg:border-r-2">
               <p className="text-lg mb-5 leading-6 text-stone-300">KURUMSAL</p>
               {navigation.map((item) => (
-                <div className="div  h-10">
+                <div key={item.name} className="div  h-10">
                   <a key={item.name} href={item.href} className="text-lg text-stone-400 hover:border-b-2 hover:border-stone-300 hover:text-amber-400 font-light leading-6">
                     {item.name}
                   </a>

@@ -1,6 +1,5 @@
 
-import SaleProject from "../components/SaleProjects";
-import MainCarousel from "../components/Carousel";
+import MainCarousel from "./Carousel";
 
 
 function classNames(...classes) {
@@ -16,11 +15,11 @@ function MainPage() {
 
     return (
         <div className="mainpage top-0">
-            <div className="slider-container mb-20 ">
+            <div className="slider-container mb-20 max-h-[800px] overflow-hidden ">
              <MainCarousel/>  
             </div>
 
-            <SaleProject/>
+        
             
             <div className="group">
                 <div className=" py-4 sm:py-3 mb-10">
